@@ -18,7 +18,6 @@
 .navbar {
     width: 100%;
     height: 70px;
-    max-width: 1600px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -40,9 +39,11 @@
     cursor: pointer;
 }
 
+/*Secction Hero*/
+
 .hero {
     height: calc(100vh - 90px);
-    background-image: url('/client/images/seccion-hero.jpg');
+    background-image: url('./images/seccion-hero.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     display: grid;
@@ -92,6 +93,9 @@
 .btn {
     margin: 5px;
 }
+
+/*Secction Courses*/
+
 .courses {
     display: flex;
     flex-direction: column;
@@ -183,6 +187,9 @@
     border: none;
     padding: 10px;
 }
+
+/*Secction Allies*/
+
 .allies {
     display: flex;
     flex-direction: column;
@@ -394,12 +401,12 @@
     font-size: 100px;
 }
 .transparent {
-        background-color: transparent; /* Establece el fondo del botón como transparente */
-        border: 1px solid #ffffff; /* Añade un borde blanco de 1px */
-        color: #ffffff; /* Establece el color del texto del botón */
-        padding: 10px 20px; /* Añade espacio interno al botón */
-        cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-        font-size: 15px; /* Tamaño del texto */
+        background-color: transparent;
+        border: 1px solid #ffffff; 
+        color: #ffffff; 
+        padding: 10px 20px; 
+        cursor: pointer; 
+        font-size: 15px;
         font-weight: bold;
         display: flex;
         align-items: center;
@@ -408,6 +415,9 @@
 .transparent img {
     height: 30px;
 }
+
+/*Footer*/
+
 footer {
     background-color: black;
     display: flex;
@@ -430,6 +440,8 @@ footer {
     width: 80px;
     height: 80px;
 }
+
+/*Responsive*/
 
 @media(max-width: 980px){
     .navbar{
