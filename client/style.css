@@ -237,10 +237,10 @@
 }
 .vertical-line {
     margin: 10px;
-    width: 1px; /* Ancho de la línea */
-    height: 85%; /* Altura de la línea */
-    border: none; /* Elimina cualquier borde horizontal */
-    background-color: #fefefe; /* Color de la línea */
+    width: 1px; 
+    height: 85%; 
+    border: none;
+    background-color: #fefefe;
 }
 .horizontal-line {
     margin: 10px;
